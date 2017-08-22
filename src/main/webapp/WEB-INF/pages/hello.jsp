@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Message : ${message}</h1>
+<jsp:include page="folder.jsp"/>
 </body>
 </html>

@@ -10,5 +10,5 @@ import java.util.List;
 public interface FolderDao {
     int addFolder(Folder folder, Folder parent);
 
-    List<Folder> getTree();
+    Folder getTree();
 }
